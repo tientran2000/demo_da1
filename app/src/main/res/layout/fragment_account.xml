@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.AccountFragment"
+    android:background="#EEF3F2"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:id="@+id/imvtk"
+            android:src="@drawable/icondkytk"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvtentk"
+            android:layout_marginLeft="20dp"
+            android:textSize="25sp"
+            android:textColor="#111313"
+            android:text="Trần Thủy Tiên"
+            android:gravity="center"
+            android:layout_marginTop="35dp"/>
+    </LinearLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        >
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/rowlichsu">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="25sp"
+                android:textColor="#0A0B0B"
+                android:layout_marginLeft="10dp"
+                android:text="Lịch sử xem"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/rowyeuthich"
+            >
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="25sp"
+                android:textColor="#0A0B0B"
+                android:text="Yêu thích"
+               />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/rowthongtin">
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="25sp"
+                android:textColor="#0A0B0B"
+                android:text="Thông tin ứng dụng"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/rowdangxuat">
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="25sp"
+                android:textColor="#0A0B0B"
+                android:text="Đăng xuất"/>
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

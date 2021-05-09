@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#F1EFEF"
+    android:padding="30dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#222"
+        android:text="Nhập thông tin tài khoản"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Tên tài khoản"
+        android:layout_marginTop="30dp"
+        android:id="@+id/edtten"
+        android:textColor="#222"
+        android:textSize="20sp"
+        android:inputType="text"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Email"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edtemail"
+        android:textColor="#222"
+        android:textSize="20sp"
+        android:inputType="text"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+
+        android:hint="Mật khẩu"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edtmk"
+        android:textColor="#222"
+        android:textSize="20sp"
+        android:inputType="text"/>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Đăng ký"
+    android:id="@+id/dktk"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/gradient"/>
+
+</LinearLayout>

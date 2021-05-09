@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/yeuthich"
+        android:title="Yêu thích"
+        android:icon="@drawable/icyeuthich"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/chiase"
+        android:title="Chia sẻ"
+        android:icon="@drawable/iconshare"
+        app:showAsAction="ifRoom"/>
+</menu>

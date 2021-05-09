@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/home"
+    android:title="Trang chủ"
+    android:icon="@drawable/ichome"/>
+    <item
+        android:id="@+id/tieudiem"
+        android:title="Tiêu điểm"
+        android:icon="@drawable/ichot"
+        />
+    <item
+        android:id="@+id/video"
+        android:title="Mẹ và bé"
+        android:icon="@drawable/ic_mevabe"/>
+    <item
+        android:id="@+id/food"
+        android:title="Dinh dưỡng"
+        android:icon="@drawable/icfood2"
+        />
+<!--    <item-->
+<!--        android:id="@+id/mevabe"-->
+<!--        android:title="Mẹ và bé"-->
+<!--        />-->
+<!--    <item-->
+<!--        android:id="@+id/dongy"-->
+<!--        android:title="Đông y"-->
+<!--        />-->
+    <item
+        android:id="@+id/person"
+        android:title="Tài khoản"
+        android:icon="@drawable/icperson"/>
+</menu>

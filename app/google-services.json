@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "75007043616",
+    "project_id": "tranthuytien",
+    "storage_bucket": "tranthuytien.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75007043616:android:54c3e9e4772326f30df445",
+        "android_client_info": {
+          "package_name": "com.example.demo_da1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "75007043616-kgnij45hsr9e89rqihcm5vln72iqflle.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzmTnIDXliZV_qmzRh9atOS79EIqpg-NU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "75007043616-kgnij45hsr9e89rqihcm5vln72iqflle.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
